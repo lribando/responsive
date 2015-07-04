@@ -1,0 +1,39 @@
+
+@wide-break: 1010px; // DEPRECATED
+
+@layout-wide-min:   1024px; // DEPRECATED
+@layout-medium-max: 1023px; // DEPRECATED
+@layout-medium-min: 768px; // DEPRECATED
+@layout-narrow-max: 767px; // DEPRECATED
+@layout-narrow-min: 480px; // DEPRECATED
+@layout-tiny-max:   479px; // DEPRECATED
+
+/*
+  Introducing superwide breakpoint. Deprecate wide after switching apps from wide to
+  wide-transitional and superwide. Then rename to wide and deprecate wide-transitional.
+ */
+@viewport-superwide:           ~"(min-width: 1320px)";
+@viewport-wide-transitional:   ~"(min-width: 1024px) and (max-width: 1319px)";
+
+@viewport-wide:   ~"(min-width: 1024px)";
+@viewport-medium: ~"(min-width: 768px) and (max-width: 1023px)";
+@viewport-narrow: ~"(min-width: 480px) and (max-width: 767px)";
+@viewport-tiny:                          ~"(max-width: 479px)";
+
+.full () {
+  width: 940px;
+  .center;
+}
+
+.grid-width () {
+  width: 960px;
+  .center;
+}
+
+.menu () {
+  .horizontal-list;
+}
+
+.group () {
+  .clearfix;
+}
