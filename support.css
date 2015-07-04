@@ -1,0 +1,443 @@
+#c_support div.main_content{
+	width:940px;
+}
+#c_support a.zd_result, #c_support .support_content li {
+  display: block;
+  margin: 0 0 10px 0;
+}
+
+#c_support .support_content li, #c_support .support_content p {
+  color: #737373;
+}
+
+#c_support .support_content {
+  padding-top: 15px;
+  font-size: 13px;
+  line-height:170%;
+}
+
+#c_support .live-person-container {
+  float: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 100%;
+}
+
+#c_support .live-person-container .live-person-chat a {
+  padding: 0;
+  margin: 0;
+}
+
+#c_support .support_content h2 {
+  font-size: 18px;
+}
+#c_support div#contact_us_container {
+  float:right;
+  width: 210px;
+}
+#c_support div#kb_search_container, #c_support div#zd_comment_container {
+  float:left;
+ 	width:690px;
+	padding-right:20px;
+}
+#c_support input#kb_keywords {
+  width: 350px;
+}
+#c_support button#kb_search_button {
+  width: 100px;
+  margin: 15px;
+}
+#c_support div.support_content_container {
+  padding: 15px 15px 0 0;
+}
+
+#c_support div#zd_common_questions {
+  float:left;
+  display:inline;
+  width:680px;
+  padding-top:10px;
+}
+#c_support div#zd_common_questions div.support_content_container {
+  width: 211px;
+  float:left
+}
+#c_support div.bottom_spacer {
+  height:30px;
+}
+div.support_modal {
+  background: white;
+  padding: 15px;
+  height:100%;
+  width: 700px;
+  margin: -300px 0px 0px -350px;
+  max-height: 430px;
+  text-align: left;
+  overflow:auto;
+}
+.support_modal div {
+  font-size: 15px;
+  margin: 15px;
+}
+.support_modal .expand_to_margin {
+  display: block;
+  height:auto;
+  bottom:0;
+  top:0;
+  left:0;
+  right:0;
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-right:15px;
+  margin-left:15px;
+}
+.support_modal label, .support_modal textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+.support_modal #send_to_cs_cancel {
+  float:right;
+  margin-right: 10px;
+}
+.support_modal #send_to_cs {
+  float:right;
+}
+.support_modal_title {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+a.support_modal_close {
+  background: url(/swift-legacy/images/gilt2/default/icons-sprite_nouveau.png) no-repeat -1012px -393px;
+  color: #858585;
+  cursor: pointer;
+  display: block;
+  height: 15px;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 100%;
+  position: relative;
+  zoom: 1;
+  width: 15px;
+  float:right;
+}
+.support_modal div#contact_success {
+  height: 200px;
+  width: 100%;
+}
+.support_modal #contact_success p {
+  padding-top: 90px;
+  text-align:center;
+  font-size: 22px;
+  color:green;
+}
+.support_modal_content p {
+  font-size: 13px;
+  line-height: 18px;
+  margin-bottom: 1em;
+  font-family: 'Proxima Nova Regular','Helvetica Neue',Arial,Sans-serif;
+}
+.support_modal label {
+  margin-bottom: 10px;
+}
+#c_support div#zd_comment_confirm {
+  display:none;
+}
+#c_support div#zd_comment_confirm p {
+  color:green;
+}
+#c_support textarea#zd_comment {
+  width: 450px;
+}
+
+/* END ANTHONY'S STYLES */
+
+.c_wrapper h2 {
+  font-weight: normal;
+}
+
+#c_support .main_content {
+  background: none;
+}
+
+/* =Support
+ *****************************************************/
+#c_support #a_index textarea#body {
+  width: 100%;
+}
+#c_support .main_content {
+  padding: 0;
+}
+.c_wrapper .main {
+  float: none;
+}
+#c_support .main_content .main label {
+  font-family: 'Proxima Nova Semibold','Helvetica Neue',Arial,Sans-serif;
+  padding: 0 0 5px 0;
+  color: #383838;
+  margin-bottom: 0;
+  display:block;
+}
+#c_support .main_content .main textarea, #c_support .main_content .main input {
+  color: #797979;
+  font-size: 18px;
+  border: 1px solid #c0c0c0;
+}
+#c_support .main_content .main .field_group {
+  padding: 0;
+  margin: 10px 0;
+}
+
+#c_support textarea, #c_support select {
+  color: #000;
+  background-color: #FFF;
+}
+#c_support #from_field input {
+  border: 1px solid #c0c0c0;
+  color: #797979;
+  font-size: 18px;
+}
+#c_support #send_to_cs .gilt_button {
+  margin-top: 10px;
+}
+#c_support button.gilt_button_container {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    font-size: 100%;
+    padding: 0;
+}
+h1.support-page {
+  border-bottom: 1px solid #DDD;
+  margin-top: 35px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  display: block;
+}
+.support_modal h1 {
+  border-bottom: 1px solid #DDD;
+  margin: 10px 15px 15px 15px;
+  display: block;
+}
+
+/* Styles for returns and shipping pages */
+.support-return, .support-shipping {
+  width: 960px;
+  margin: 40px 0;
+}
+
+/* Override for Search bar input */
+#c_support .search-container .search-input {
+  background: transparent;
+}
+
+.support-shipping .list {
+  margin-bottom: 10px;
+}
+
+.support-shipping .list li, .support-return .list li {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+
+/* Global FAQ page */
+
+/* support/global */
+.faq-table {
+    margin: 10px 0;
+}
+
+.faq-table td,
+.faq-table th {
+    border: 1px solid #737373;
+    padding: 5px;
+}
+
+.global-faq .questions-wrapper .questions {
+  float: left;
+  width: 211px;
+  margin: 0 15px 0 0;
+}
+
+.global-faq .questions-wrapper .questions .answer {
+  display: none;
+}
+
+.global-faq .questions-wrapper .questions ol {
+  margin: 15px 0 0 0;
+}
+
+.global-faq .questions-wrapper .questions ol li {
+  margin: 0 0 15px 0;
+}
+
+.answer p, .answer ul, .answer li {
+  margin: 0 0 10px 0;
+}
+
+.answer p strong {
+  font-weight: bold;
+}
+
+.answer .region {
+  float: left;
+  display: inline;
+  width: 101px;
+  margin: 0 15px 0 0;
+  font-size: 13px;
+}
+
+.answer .text-list {
+  margin: 0;
+  padding: 0;
+}
+
+.answer .region .strong {
+  width: 100px;
+  margin: 0 0 15px 0;
+}
+
+.answer .countries {
+  width: 100px;
+  display: block;
+  font-size: 13px;
+}
+
+.answer a {
+  color: #c98702;
+  text-decoration: none;
+}
+
+.answer a:hover {
+  color: #383838;
+  text-decoration: underline;
+}
+
+div.blockUI.blockMsg.blockPage {
+  left: 50%;
+}
+
+/* TINY: iphone Portrait */
+@media only screen and (max-width: 479px) {
+
+  h1.support-page {
+    font-size: 26px;
+    width: 98%;
+    margin: 15px 0 0 0;
+  }
+
+  div#kb_search_container,
+  .small.kb_keywords_form,
+  #c_support div#zd_common_questions,
+  .live-person-chat {
+    display: none;
+  }
+
+  #c_support div#zd_common_questions {
+    display:none;
+  }
+
+  #c_support div#contact_us_container {
+    width: 98%;
+    padding-left: 10px;
+    float: none;
+  }
+
+  a.link.highlight {
+    font-size: 15px;
+  }
+
+  .minor {
+    font-size: 12px;
+  }
+
+  div#container, #c_support div.main_content {
+    width: 98%;
+  }
+
+  #c_support div.support_content_container {
+    padding: 0;
+  }
+
+  #c_support .support_content {
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  #c_support div.main_content {
+    width: 98%;
+  }
+
+  div#container, div.main_content, #c_support div#kb_search_container,
+  #c_support div#zd_comment_container, #c_support div#contact_us_container{
+    width: 95%;
+    padding-left: 10px;
+  }
+
+  .sidebar-container {
+    float: left;
+  }
+
+  .quicklink-container {
+    float: left;
+    margin-right: 50px;
+    width: 35%;
+  }
+
+  .contact-container {
+    float: left;
+    width: 40%;
+  }
+
+  div#kb_search_container, .small.kb_keywords_form, #c_support div#zd_common_questions,
+  #c_support .live-person-container {
+    display: none;
+  }
+
+  #c_support div.support_content_container {
+    padding-top: 0;
+  }
+
+  #c_support div#contact_us_container {
+    float: left;
+    width: 80%;
+  }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #c_support div.main_content, div#container, div.main_content, #c_support div#zd_comment_container {
+    width: 98%;
+  }
+
+  div#kb_search_container, .small.kb_keywords_form, #c_support div#zd_common_questions, #c_support .live-person-container {
+    display: none;
+  }
+
+  #c_support div.support_content_container {
+    padding-top: 0;
+  }
+
+  .sidebar-container {
+    float: left;
+  }
+
+  .quicklink-container {
+    float: left;
+    margin-right: 55px;
+    margin-left: 10px;
+    width: 40%;
+  }
+
+  .contact-container {
+    float: left;
+    width: 40%;
+  }
+
+  #c_support div#contact_us_container {
+    float: left;
+    width: 80%;
+  }
+
+}
